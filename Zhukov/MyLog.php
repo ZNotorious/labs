@@ -13,15 +13,26 @@
             self::Instance()->_log($str);
         }
 
-        public function _write() {
-            foreach($this->log as $el){ 
-                echo $el;
-            }
-            //var_dump($this->log);
-        }
+    public function _write() {
+        $log = '';        
+        foreach($this->log as $el){
+            $log .= $el."\n";
+    	}
+    	echo $log;
+    
+    	$d = new \DateTime();
+   
+    	$file = "./Log/". $d->format('d-m-Y\TH_i_s.u').".log";
 
-        public static function write() {
-            return self::Instance()->_write();
+        if (!is_dir('./Log/')) {
+            mkdir("./Log/");    
+        }
+        
+        file_put_contents($file,$log);
+	}
+
+    public static function write() {
+			return self::Instance()->_write();
         }
     }
 ?>

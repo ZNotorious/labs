@@ -14,6 +14,7 @@ include 'Zhukov/ZhukovException.php';
 
 $b = new QuadEquation();
 
+MyLog::log("Версия программы ".file_get_contents("./version"));
 try {
     $values = array();
     for($i=1; $i<4; $i++){
