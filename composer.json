@@ -20,6 +20,6 @@
     "minimum-stability": "dev",
     "require": {
         "rok9ru/trpo-core":"^2.0",
-        "znotorious/zhukov":"^1.0"
+        "znotorious/zhukov":"^1.1"
     }
 }
