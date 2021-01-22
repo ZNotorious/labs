@@ -4,13 +4,7 @@ use Zhukov\MyLog;
 use Zhukov\QuadEquation;
 use Zhukov\ZhukovException;
 
-include "core/EquationInterface.php";
-include "core/LogAbstract.php";
-include "core/LogInterface.php";
-include "Zhukov/MyLog.php";
-include "Zhukov/Equation.php";
-include "Zhukov/QuadEquation.php";
-include 'Zhukov/ZhukovException.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $b = new QuadEquation();
 

@@ -1,0 +1,25 @@
+{
+    "name": "znotorious/labs",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andrew Zhukov",
+            "email": "andrew.zhukov14@yandex.ru"
+        }
+    ],
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/rok9ru/trpo-core.git"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/ZNotorious/Zhukov.git"
+    }
+],
+    "minimum-stability": "dev",
+    "require": {
+        "rok9ru/trpo-core":"^2.0",
+        "znotorious/zhukov":"^1.0"
+    }
+}
