@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8b8f85067b642ca2af5d64dd2258293",
+    "content-hash": "196530f4e6a16cccff7d3699f8c571fa",
     "packages": [
         {
             "name": "rok9ru/trpo-core",
@@ -44,22 +44,22 @@
         },
         {
             "name": "znotorious/zhukov",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ZNotorious/Zhukov.git",
-                "reference": "702d9292c7eb57cd6c2f176626077b668bed9320"
+                "reference": "fc02988ac89926ba19dc7ba6e4a4669e3c5bbd13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ZNotorious/Zhukov/zipball/702d9292c7eb57cd6c2f176626077b668bed9320",
-                "reference": "702d9292c7eb57cd6c2f176626077b668bed9320",
+                "url": "https://api.github.com/repos/ZNotorious/Zhukov/zipball/fc02988ac89926ba19dc7ba6e4a4669e3c5bbd13",
+                "reference": "fc02988ac89926ba19dc7ba6e4a4669e3c5bbd13",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "zhukov\\": ""
+                    "Zhukov\\": ""
                 }
             },
             "authors": [
@@ -69,10 +69,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/ZNotorious/Zhukov/tree/1.0",
+                "source": "https://github.com/ZNotorious/Zhukov/tree/1.1",
                 "issues": "https://github.com/ZNotorious/Zhukov/issues"
             },
-            "time": "2021-01-22T11:07:08+00:00"
+            "time": "2021-01-22T11:47:26+00:00"
         }
     ],
     "packages-dev": [],
